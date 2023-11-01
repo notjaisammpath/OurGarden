@@ -1,3 +1,1 @@
-# ourgarden
-
-A new Flutter project.
+# OurGarden, A Community Gardening Platform
