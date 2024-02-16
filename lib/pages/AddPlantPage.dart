@@ -2,11 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:http/http.dart' as http;
-import 'package:ourgarden/backend/back4appBackend.dart';
 import 'package:ourgarden/backend/trefleBackend.dart';
 import 'package:ourgarden/main.dart';
-import 'package:ourgarden/pages/MyGardenPageWidgets/plantview.dart';
 import 'package:provider/provider.dart';
 
 import '../backend/plant.dart';

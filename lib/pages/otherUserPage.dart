@@ -1,15 +1,9 @@
 // ignore_for_file: camel_case_types
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:ourgarden/backend/user.dart';
-import 'package:ourgarden/pages/AboutPage.dart';
 import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
-import 'package:provider/provider.dart';
 
-import '../main.dart';
 
 class otherUserPage extends StatefulWidget {
   final Future<List<ParseObject>> u;
@@ -25,6 +19,7 @@ class _otherUserPageState extends State<otherUserPage> {
   var hasPhoto = false;
   User? user;
 
+  @override
   void initState() {
     getUser(widget.u);
     super.initState();

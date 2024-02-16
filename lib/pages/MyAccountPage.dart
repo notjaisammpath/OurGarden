@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:http/http.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:ourgarden/backend/back4appBackend.dart';
-import 'package:ourgarden/backend/user.dart';
 import 'package:ourgarden/pages/AboutPage.dart';
 import 'package:ourgarden/pages/myRequestsPage.dart';
-import 'package:ourgarden/pages/post.dart';
-import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
 import 'package:provider/provider.dart';
 
 import '../main.dart';

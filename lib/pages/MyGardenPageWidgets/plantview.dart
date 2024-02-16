@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ourgarden/main.dart';
 
 import '../../backend/plant.dart';
 

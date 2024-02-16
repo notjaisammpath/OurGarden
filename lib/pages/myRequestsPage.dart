@@ -4,7 +4,6 @@ import 'package:ourgarden/backend/user.dart';
 import 'package:ourgarden/main.dart';
 import 'package:ourgarden/pages/NewPostPage.dart';
 import 'package:ourgarden/pages/post.dart';
-import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
 import 'package:provider/provider.dart';
 
 class myRequestsPage extends StatefulWidget {
